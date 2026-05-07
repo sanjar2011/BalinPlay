@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+// @media (min-width: 320px) and (max-width: 480px) {
+//     .container {
+//         max-width: 414px;
+//         margin: 0 auto;
+//     padding: 0 15px;
+//     overflow: hidden;
+//     }
+// }

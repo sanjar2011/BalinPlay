@@ -1,0 +1,96 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__burger {
+    display: none;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+  }
+
+  &__link {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+  }
+
+  &__supportBtn {
+    background: none;
+    border: none;
+    width: 58px;
+    height: 19px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  &__signBtn {
+    padding: 12px 40px;
+    width: 130px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFBC51;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+   @media (min-width: 320px) and (max-width: 480px) {
+  
+
+  .header {
+    background-size: auto;
+    &__burger {
+      display: block;
+    }
+    &__logo {
+      width: 111px;
+      height: 27.47px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    &__nav,
+    &__actions {
+      display: none;
+    }
+  }}

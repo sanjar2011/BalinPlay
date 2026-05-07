@@ -1,0 +1,106 @@
+
+.intro {
+  background-image: url(../assents/Vector\ 1.png);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 700px;
+
+ .intro__container {
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+  }
+
+  &__title {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54.7642px;
+    line-height: 67px;
+    color: #ffffff;
+    width: 397px;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.2547px;
+    line-height: 22px;
+    color: #ffffff;
+    width: 421px;
+    margin-bottom: 38px;
+  }
+
+  &__btn {
+    padding: 15px 60px;
+    background: #798ac9;
+    border: 1px solid rgba(171, 163, 163, 0.2);
+    border-radius: 4px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__imgComp {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    right: 35px;
+  }
+
+  &__imgNout {
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+  }
+}
+// @media screen and (max-width: 780px) {
+
+//   .intro {
+
+//     &__imgComp {
+//       display: none;
+//     }
+
+//     &__imgNout {
+//       display: none;
+//     }
+
+//     &__title {
+//       font-style: normal;
+//       font-weight: 800;
+//       font-size: 38.3448px;
+//       line-height: 47px;
+//       color: #ffffff;
+//     }
+   
+//     &__text {
+//       width: 326px;
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 14.1355px;
+//       line-height: 17px;
+//       color: #ffffff;
+//     }
+
+//     &__btn {
+//       padding: 12px 46px;
+//     }
+//   }
+
+//   .payments {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   .icons__container {
+//     display: none;
+//   }
+// }
