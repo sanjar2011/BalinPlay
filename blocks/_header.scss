@@ -1,8 +1,10 @@
 .header {
+  
+  background-image: url(../assents/Vector\ 1\ \(1\).png);
   &__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 150px;
   }
 
   &__burger {
@@ -64,33 +66,5 @@
     order: 0;
     flex-grow: 0;
   }
-  background-repeat: no-repeat;
-  background-position: center top;
-  padding-top: 15px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
 }
-   @media (min-width: 320px) and (max-width: 480px) {
-  
-
-  .header {
-    background-size: auto;
-    &__burger {
-      display: block;
-    }
-    &__logo {
-      width: 111px;
-      height: 27.47px;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-    }
-
-    &__nav,
-    &__actions {
-      display: none;
-    }
-  }}
+   
